@@ -45,7 +45,9 @@ _____
 
 
 Método: POST 
+
 URI: api/usuario 
+
 Params: 
 
 ```javascript
@@ -70,6 +72,7 @@ OBTENER
 _______
 
 Método: GET
+
 URI: /api/usuario/:idusuario || /api/usuario
 
 
@@ -80,7 +83,9 @@ _________
 
 
 Método: PUT / UPDATE
-URI: api/usuario/:idusuario 
+
+URI: api/usuario/:idusuario
+
 Params: 
 
 ```javascript
@@ -106,6 +111,7 @@ ________
 
 
 Método: DELETE
+
 URI: /api/usuario/:idusuario
 
 
@@ -118,7 +124,9 @@ _____
 
 
 Método: POST 
+
 URI: /api/empresa/:empresaid || /api/empresa
+
 Params: 
 
 ```javascript
@@ -145,6 +153,7 @@ CREAR CONTACTO EN UNA EMPRESA
 _____________________________
 
 Método: POST 
+
 URI: /api/empresa/:empresaid/contact/:usuarioid
 
 
@@ -154,6 +163,7 @@ OBTENER
 _______
 
 Método: GET
+
 URI: /api/empresa/:empresaid
 
 
@@ -161,6 +171,7 @@ OBTENER CONTACTOS
 _________________
 
 Método: GET
+
 URI: /api/contacts/empresa/:empresaid
 
 
@@ -171,7 +182,9 @@ _________
   
 
 Método: PUT / UPDATE
+
 URI: /api/empresa/:empresaid
+
 Params: 
 
 ```javascript
@@ -198,6 +211,7 @@ ELIMINAR
 ________
 
 Método: DELETE
+
 URI: /api/empresa/:empresaid
 
 
@@ -211,7 +225,9 @@ _____
 
 
 Método: POST 
+
 URI: /api/empresa/:empresaid/orden_servicio || /api/orden_servicio
+
 Params: 
 
 ```javascript
@@ -241,6 +257,7 @@ OBTENER
 _______
 
 Método: GET
+
 URI: /api/orden_servicio/:ordenservicioid || /api/orden_servicio  || /empresa/:empresaid/orden_servicio
  
 
@@ -250,7 +267,9 @@ _________
 
 
 Método: PUT / UPDATE
+
 URI: /api/:ordenservicioid
+
 Params: 
 
 ```javascript
@@ -286,6 +305,7 @@ ELIMINAR
 ________
 
 Método: DELETE
+
 URI: /api/orden_servicio/:ordenservicioid
 
 
@@ -298,7 +318,9 @@ _____
 
 
 Método: POST 
+
 URI: /api/solicitud_servicio 
+
 Params: 
 
 ```javascript
@@ -324,6 +346,7 @@ OBTENER
 _______
 
 Método: GET
+
 URI: /api/solicitud_servicio/:solicitudservicioid || /api/solicitud_servicio
  
 
@@ -333,7 +356,9 @@ _________
 
 
 Método: PUT / UPDATE
+
 URI: /api/solicitud_servicio/:solicitudservicioid
+
 Params: 
 
 ```javascript
@@ -358,6 +383,7 @@ ELIMINAR
 ________
 
 Método: DELETE
+
 URI: /api/solicitud_servicio/:solicitudservicioid
 
 
@@ -369,7 +395,9 @@ _____
 
 
 Método: POST 
+
 URI: /api/candidate/:usuarioid || /api/candidate
+
 Params: 
 
 ```javascript
@@ -391,6 +419,7 @@ OBTENER
 _______
 
 Método: GET
+
 URI: /api/candidate || /api/:candidateid  
  
 
@@ -400,7 +429,9 @@ _________
 
 
 Método: PUT / UPDATE
+
 URI: /api/candidate/:candidateid
+
 Params: 
 
 ```javascript
@@ -422,6 +453,7 @@ ELIMINAR
 ________
 
 Método: DELETE
+
 URI: /api/candidate/:candidateid
 
 
@@ -434,7 +466,9 @@ _____
 
 
 Método: POST 
+
 URI: /api/solicitud_servicio 
+
 Params: 
 
 ```javascript
@@ -460,6 +494,7 @@ OBTENER
 _______
 
 Método: GET
+
 URI: /api/solicitud_servicio/:solicitudservicioid || /api/solicitud_servicio
  
 
@@ -469,7 +504,9 @@ _________
 
 
 Método: PUT / UPDATE
+
 URI: /api/solicitud_servicio/:solicitudservicioid
+
 Params: 
 
 ```javascript
@@ -494,6 +531,7 @@ ELIMINAR
 ________
 
 Método: DELETE
+
 URI: /api/solicitud_servicio/:solicitudservicioid
 
 
@@ -505,7 +543,9 @@ _____
 
 
 Método: POST 
+
 URI: /api/contacts 
+
 Params: 
 
 ```javascript
@@ -520,6 +560,7 @@ OBTENER
 _______
 
 Método: GET
+
 URI: /api/contacts || /api/contacts/:empresaid || /api/contacts/:contactid
  
  54836e5c08be31d109d7af40
@@ -531,7 +572,9 @@ _________
 
 
 Método: PUT / UPDATE
+
 URI: /api/contacts/:contactid
+
 Params: 
 
 
@@ -547,6 +590,7 @@ ELIMINAR
 ________
 
 Método: DELETE
+
 URI: /api/contact/:contactid
 
 
