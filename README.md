@@ -46,7 +46,7 @@ _____
 
 Método: POST 
 
-URI: api/usuario 
+**URI: api/usuario**
 
 Params: 
 
