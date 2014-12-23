@@ -46,7 +46,7 @@ _____
 
 Método: POST 
 
-**URI: api/usuario**
+URI: **api/usuario**
 
 Params: 
 
@@ -73,7 +73,7 @@ _______
 
 Método: GET
 
-URI: /api/usuario/:idusuario || /api/usuario
+URI: ```/api/usuario/:idusuario || /api/usuario```
 
 
 
