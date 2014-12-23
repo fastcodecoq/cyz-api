@@ -46,7 +46,7 @@ _____
 
 Método: POST 
 
-URI: **api/usuario**
+URI: ```api/usuario```
 
 Params: 
 
@@ -84,7 +84,7 @@ _________
 
 Método: PUT / UPDATE
 
-URI: api/usuario/:idusuario
+URI: ```api/usuario/:idusuario```
 
 Params: 
 
@@ -112,7 +112,7 @@ ________
 
 Método: DELETE
 
-URI: /api/usuario/:idusuario
+URI: ```/api/usuario/:idusuario```
 
 
 EMPRESA
@@ -125,7 +125,7 @@ _____
 
 Método: POST 
 
-URI: /api/empresa/:empresaid || /api/empresa
+URI: ```/api/empresa/:empresaid || /api/empresa```
 
 Params: 
 
@@ -154,7 +154,7 @@ _____________________________
 
 Método: POST 
 
-URI: /api/empresa/:empresaid/contact/:usuarioid
+URI: ```/api/empresa/:empresaid/contact/:usuarioid```
 
 
 
@@ -164,7 +164,7 @@ _______
 
 Método: GET
 
-URI: /api/empresa/:empresaid
+URI: ```/api/empresa/:empresaid```
 
 
 OBTENER CONTACTOS
@@ -172,7 +172,7 @@ _________________
 
 Método: GET
 
-URI: /api/contacts/empresa/:empresaid
+URI: ```/api/contacts/empresa/:empresaid```
 
 
 
@@ -183,7 +183,7 @@ _________
 
 Método: PUT / UPDATE
 
-URI: /api/empresa/:empresaid
+URI: ```/api/empresa/:empresaid```
 
 Params: 
 
@@ -212,7 +212,7 @@ ________
 
 Método: DELETE
 
-URI: /api/empresa/:empresaid
+URI: ```/api/empresa/:empresaid```
 
 
 
@@ -226,7 +226,7 @@ _____
 
 Método: POST 
 
-URI: /api/empresa/:empresaid/orden_servicio || /api/orden_servicio
+URI: ```/api/empresa/:empresaid/orden_servicio || /api/orden_servicio```
 
 Params: 
 
@@ -258,7 +258,7 @@ _______
 
 Método: GET
 
-URI: /api/orden_servicio/:ordenservicioid || /api/orden_servicio  || /empresa/:empresaid/orden_servicio
+URI: ```/api/orden_servicio/:ordenservicioid || /api/orden_servicio  || /empresa/:empresaid/orden_servicio```
  
 
 
@@ -268,7 +268,7 @@ _________
 
 Método: PUT / UPDATE
 
-URI: /api/:ordenservicioid
+URI: ```/api/:ordenservicioid```
 
 Params: 
 
@@ -306,7 +306,7 @@ ________
 
 Método: DELETE
 
-URI: /api/orden_servicio/:ordenservicioid
+URI: ```/api/orden_servicio/:ordenservicioid```
 
 
 
@@ -319,7 +319,7 @@ _____
 
 Método: POST 
 
-URI: /api/solicitud_servicio 
+URI: ```/api/solicitud_servicio```
 
 Params: 
 
@@ -347,7 +347,7 @@ _______
 
 Método: GET
 
-URI: /api/solicitud_servicio/:solicitudservicioid || /api/solicitud_servicio
+URI: ```/api/solicitud_servicio/:solicitudservicioid || /api/solicitud_servicio```
  
 
 
@@ -357,7 +357,7 @@ _________
 
 Método: PUT / UPDATE
 
-URI: /api/solicitud_servicio/:solicitudservicioid
+URI: ```/api/solicitud_servicio/:solicitudservicioid```
 
 Params: 
 
@@ -384,7 +384,7 @@ ________
 
 Método: DELETE
 
-URI: /api/solicitud_servicio/:solicitudservicioid
+URI: ```/api/solicitud_servicio/:solicitudservicioid```
 
 
 CANDIDATO
@@ -396,7 +396,7 @@ _____
 
 Método: POST 
 
-URI: /api/candidate/:usuarioid || /api/candidate
+URI: ```/api/candidate/:usuarioid || /api/candidate```
 
 Params: 
 
@@ -420,7 +420,7 @@ _______
 
 Método: GET
 
-URI: /api/candidate || /api/:candidateid  
+URI: ```/api/candidate || /api/:candidateid```
  
 
 
@@ -430,7 +430,7 @@ _________
 
 Método: PUT / UPDATE
 
-URI: /api/candidate/:candidateid
+URI: ```/api/candidate/:candidateid```
 
 Params: 
 
@@ -454,7 +454,7 @@ ________
 
 Método: DELETE
 
-URI: /api/candidate/:candidateid
+URI: ```/api/candidate/:candidateid```
 
 
 
@@ -467,7 +467,7 @@ _____
 
 Método: POST 
 
-URI: /api/solicitud_servicio 
+URI: ```/api/solicitud_servicio```
 
 Params: 
 
@@ -495,7 +495,7 @@ _______
 
 Método: GET
 
-URI: /api/solicitud_servicio/:solicitudservicioid || /api/solicitud_servicio
+URI: ```/api/solicitud_servicio/:solicitudservicioid || /api/solicitud_servicio```
  
 
 
@@ -505,7 +505,7 @@ _________
 
 Método: PUT / UPDATE
 
-URI: /api/solicitud_servicio/:solicitudservicioid
+URI: ```/api/solicitud_servicio/:solicitudservicioid```
 
 Params: 
 
@@ -532,7 +532,7 @@ ________
 
 Método: DELETE
 
-URI: /api/solicitud_servicio/:solicitudservicioid
+URI: ```/api/solicitud_servicio/:solicitudservicioid```
 
 
 CONTACTO
@@ -544,7 +544,7 @@ _____
 
 Método: POST 
 
-URI: /api/contacts 
+URI: ```/api/contacts```
 
 Params: 
 
@@ -561,7 +561,7 @@ _______
 
 Método: GET
 
-URI: /api/contacts || /api/contacts/:empresaid || /api/contacts/:contactid
+URI: ```/api/contacts || /api/contacts/:empresaid || /api/contacts/:contactid```
  
  54836e5c08be31d109d7af40
  548cb376b7f93fe9065a000d
@@ -573,7 +573,7 @@ _________
 
 Método: PUT / UPDATE
 
-URI: /api/contacts/:contactid
+URI: ```/api/contacts/:contactid```
 
 Params: 
 
@@ -591,6 +591,6 @@ ________
 
 Método: DELETE
 
-URI: /api/contact/:contactid
+URI: ```/api/contact/:contactid```
 
 
